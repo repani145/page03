@@ -10,17 +10,17 @@
         <fieldset>
             <legend><h2>Address</h2></legend>
             <label for="hn">H.No :</label>
-            <input type="text" id="hn" name="hn" placeholder="house number" /><br><br>
+            <input type="text" id="hn" name="hn" placeholder="house number" required/><br><br>
             <label for="adl1">Address line1 :</label>
-            <input type="text" id="adl1" name="adl1" placeholder="address Line1" /><br><br>
+            <input type="text" id="adl1" name="adl1" placeholder="address Line1" required/><br><br>
             <label for="ad2">Address Line2 :</label>
             <input type="text" id="ad2" name="ad2" placeholder="address Line2(optional)" /><br><br>
             <label for="lm">Land Mark :</label>
-            <input type="lm" id="lm" name="lm" placeholder="land mark" /><br><br>
+            <input type="lm" id="lm" name="lm" placeholder="land mark" required/><br><br>
             <label for="nc">Nearest city :</label>
-            <input type="text" id="nc" name="nc" placeholder="nearest city" /><br><br>
+            <input type="text" id="nc" name="nc" placeholder="nearest city" required/><br><br>
             <label for="pc">Pincode :</label>
-            <input type="text" id="pc" name="pc" placeholder="pincode" />
+            <input type="text" id="pc" name="pc" placeholder="pincode" required pattern=[0-9]{6}/>
             <label for="ctry">country :</label>
             <select name="country" id="ctry">
                 <option value="america">America</option>
